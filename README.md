@@ -11,13 +11,15 @@ android 多机器批量执行脚本
 ### 使用帮助
 ```
 andShell [IP] [option] [params...]
-  IP 虚拟机IP文件，一行一个IP
+  IP 机器IP文件，一行一个IP
   option
       reboot 重启
       install 安装
       start 启动
       stop 停止
       installAndStart 安装并启动
+      pull 从机器拉取文件存放本地
+      push 将本地文件推送至机器内
   params:
       reboot 无参数
       install 参数：安装文件名
